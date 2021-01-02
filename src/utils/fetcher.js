@@ -1,5 +1,5 @@
 import request from 'graphql-request';
 
-const fetcher = (query) => request('https://api.graph.cool/simple/v1/movies', query);
+const fetcher = (query) => request('http://localhost:4000', query);
 
 export default fetcher;
